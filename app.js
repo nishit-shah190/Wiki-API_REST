@@ -22,7 +22,7 @@ app.route("/articles")
     Article.find(function(err, foundArticles)
     {
         
-        // console.log(foundArticles);
+    
       
         res.send(foundArticles);
     })
